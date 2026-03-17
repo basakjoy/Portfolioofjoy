@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 import joyPortrait from "@/assets/joy.png";
 import FloatingElements from "./FloatingElements";
 import { useRef } from "react";
@@ -135,7 +135,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 1 }}
-              className="mt-16 lg:mt-24"
+              className="mt-16 lg:mt-24 flex items-center gap-6"
             >
               <a
                 href="#about"
@@ -148,6 +148,16 @@ const Hero = () => {
                 >
                   <ArrowDown className="w-4 h-4" />
                 </motion.div>
+              </a>
+
+              {/* Download CV Button */}
+              <a
+                href="/cv.pdf"
+                download
+                className="group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-primary-foreground bg-primary rounded-full hover:bg-primary/90 transition-colors"
+              >
+                <Download className="w-4 h-4" />
+                Download CV
               </a>
             </motion.div>
 
