@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Download } from "lucide-react";
-import joyPortrait from "@/assets/joy.png";
+import joyPortrait from "@/assets/owner.jpg";
 import FloatingElements from "./FloatingElements";
 import { useRef } from "react";
 
