@@ -152,7 +152,7 @@ const Hero = () => {
 
               {/* Download CV Button */}
               <a
-                href="https://drive.google.com/file/d/1LmpNW-yiQCU_V-HMVu8cu-XsFgLZqhua/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Aa5A2rv6mc2x9oOOegDopRVOgS4L5Cgn/view?usp=sharing"
                 download
                 className="group inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-primary-foreground bg-primary rounded-full hover:bg-primary/90 transition-colors"
               >
